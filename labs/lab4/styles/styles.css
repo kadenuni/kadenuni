@@ -1,0 +1,74 @@
+.flexbox1 {
+    display: flex;
+    background-color: lightblue;
+    width: 800px;
+    gap: 10px; 
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.box1 {
+    width: 385px; /* Used your widths from the video */
+    height: 50px;
+    background-color: gray;
+}
+
+.flexbox2 {
+    display: flex;
+    background-color: lightblue;
+    width: 800px;
+    gap: 10px; 
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.box2 {
+    width: 255px; /* Used your widths from the video */
+    height: 50px;
+    background-color: gray;
+}
+
+.flexbox3 {
+    display: flex;
+    background-color: lightblue;
+    width: 800px;
+    gap: 12px; 
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.box3 {
+    width: 200px; /* Used your widths from the video */
+    height: 50px;
+    background-color: gray;
+    border: 2px solid black;
+}
+
+.box3_1 {
+   width: 370px
+}
+
+.box3_2, .box3_3 {
+    width: 185px
+ }
+
+ .flexbox4 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightblue;
+    width: 800px;
+    gap: 12px; 
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.box4 {
+    width: 181px; /* Used your widths from the video */
+    height: 50px;
+    background-color: gray;
+    border: 2px solid black;
+}
+
+.box4.bottom {
+    width: 100%;
+}

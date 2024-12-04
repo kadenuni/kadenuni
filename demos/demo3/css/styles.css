@@ -1,0 +1,74 @@
+.centersquare {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    background-color: lightblue;
+    border: 10px solid blue;
+    padding: 15px;
+}
+
+.framed-image{
+    border: 5px solid green;
+    padding: 20px 10px;
+    margin-bottom: 30px;
+}
+
+.outer-box{
+    width: 400px;
+    height: 300px;
+    border: 10px solid red;
+    margin: auto;
+}
+
+.middle-box{
+    height: 150px;
+    border: 5px solid purple;
+    padding: 15px;
+    margin: 10px;
+}
+
+.inner-box{
+    height: 50px;
+    border: 2px dotted orange;
+    padding: 5px;
+}
+
+.red {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+.blue {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+
+.green {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+
+.sidebyside {
+    display: flex;
+}
+
+.redbox {
+    background-color: red;
+    width: 200px;
+    height: 300px;
+}
+ 
+.bluebox {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+ 
+.redbox > .bluebox {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}

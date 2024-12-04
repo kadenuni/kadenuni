@@ -1,0 +1,71 @@
+.red {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.blue {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+ 
+.green {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+ 
+ 
+.yellow {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+.rainbow {
+    display: flex;
+}
+
+.boxtopleft {
+    width: 100px;
+    height: 100px;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.boxtopmid {
+    width: 100px;
+    height: 100px;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.boxtopright {
+    width: 100px;
+    height: 100px;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.boxbotleft {
+    width: 100px;
+    height: 100px;
+    border-right: 2px solid black;
+
+}
+
+.boxbotmid {
+    width: 100px;
+    height: 100px;
+    border-left: 2px solid black;
+
+    border-right: 2px solid black;
+}
+
+.boxbotright {
+    width: 100px;
+    height: 100px;
+    border-left: 2px solid black;
+
+}

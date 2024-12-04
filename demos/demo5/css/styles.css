@@ -1,0 +1,47 @@
+.flex {
+    display: flex;
+}
+
+.boxtopleft {
+    width: 100px;
+    height: 100px;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.boxtopmid {
+    width: 100px;
+    height: 100px;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.boxtopright {
+    width: 100px;
+    height: 100px;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.boxbotleft {
+    width: 100px;
+    height: 100px;
+    border-right: 2px solid black;
+
+}
+
+.boxbotmid {
+    width: 100px;
+    height: 100px;
+    border-left: 2px solid black;
+
+    border-right: 2px solid black;
+}
+
+.boxbotright {
+    width: 100px;
+    height: 100px;
+    border-left: 2px solid black;
+
+}
